@@ -6,6 +6,7 @@ package com.codideep.app.view;
 
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.layout.StackPane;
 
 /**
  *
@@ -16,8 +17,13 @@ public class Container {
     private final Scene scene;
 
     public Container() {
-        Label label = new Label("¡Hola, JavaFX!");
-        scene = new Scene(label, 300, 200);
+        StackPane stackPane = new StackPane();
+
+        Label label = new Label("Nombre completo");
+
+        stackPane.getChildren().add(label);
+
+        scene = new Scene(stackPane, 300, 200);
     }
 
     public Scene getScene() {

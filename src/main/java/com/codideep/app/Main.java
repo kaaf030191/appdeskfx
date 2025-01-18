@@ -15,9 +15,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        Container mdi = new Container();
+        Container container = new Container();
 
-        primaryStage.setScene(mdi.getScene());
+        primaryStage.setScene(container.getScene());
         primaryStage.setTitle("JavaFX App");
         primaryStage.show();
     }
