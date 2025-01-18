@@ -1,6 +1,6 @@
 package com.codideep.app;
 
-import com.codideep.app.view.Container;
+import com.codideep.app.view.FrmUserRegister;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
@@ -15,10 +15,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        Container container = new Container();
+        FrmUserRegister frmUserRegister = new FrmUserRegister();
 
-        primaryStage.setScene(container.getScene());
-        primaryStage.setTitle("JavaFX App");
+        primaryStage.setScene(frmUserRegister.getScene());
+        primaryStage.setTitle("Registro de usuario");
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 

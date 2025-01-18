@@ -1,0 +1,16 @@
+.btnPrimary {
+	-fx-background-color: #214262;
+	-fx-background-insets: 0;
+	-fx-background-radius: 10px;
+	-fx-border-color: #cccccc;
+	-fx-border-radius: 7px;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+	-fx-cursor: hand;
+	-fx-text-fill: #ffffff;
+}
+
+.btnPrimary:hover {
+	-fx-background-color: #ffffff;
+	-fx-text-fill: #000000;
+}
